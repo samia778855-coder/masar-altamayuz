@@ -1,0 +1,1 @@
+const openLogin=document.getElementById('openLogin');const loginBox=document.getElementById('loginBox');if(openLogin&&loginBox){openLogin.addEventListener('click',()=>loginBox.classList.toggle('hidden'));}
